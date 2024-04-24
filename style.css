@@ -1,7 +1,26 @@
+/* CSS HEX */
+--english-violet: #413c58ff;
+--ash-gray: #a3c4bcff;
+--tea-green: #bfd7b5ff;
+
+/* CSS HSL */
+--english-violet: hsla(251, 19%, 29%, 1);
+--ash-gray: hsla(165, 22%, 70%, 1);
+--tea-green: hsla(102, 30%, 78%, 1);
+
 * {
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
-  
+  body {
+    background-color: #a3c4bcff;
+    color: black;
+  }
+
+  #header {
+  font-size: 50px;
+  font-weight: 800;
+
+}
