@@ -12,15 +12,29 @@
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  body {
+body {
     background-color: #a3c4bcff;
     color: black;
-  }
+}
 
-  #header {
+#header {
   font-size: 50px;
   font-weight: 800;
+}
 
+.side-bar {
+  width: 335px;
+  background-color: rgb(177, 206, 181);
+  color: white;
+  text-align: center;
+  border-style: dashed;
+  border-color: rgb(115, 157, 121);
+  border-width: 5px;
+  border-radius: 3%;
+}
+
+.side-bar a {
+  color: aliceblue;
 }
