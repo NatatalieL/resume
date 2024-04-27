@@ -1,15 +1,5 @@
-/* CSS HEX */
---english-violet: #413c58ff;
---ash-gray: #a3c4bcff;
---tea-green: #bfd7b5ff;
-
-/* CSS HSL */
---english-violet: hsla(251, 19%, 29%, 1);
---ash-gray: hsla(165, 22%, 70%, 1);
---tea-green: hsla(102, 30%, 78%, 1);
-
 * {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Varela Round", "Helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -20,8 +10,20 @@ body {
   color: black;
 }
 
+p {
+  font-size: medium auto;
+}
+
 footer {
   object-position: center;
+}
+
+a {
+  color: aliceblue;
+}
+
+a:hover {
+  color: #413c58;
 }
 
 #header {
@@ -33,22 +35,37 @@ footer {
 .side-bar {
   display: flex;
   flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
   background-color: rgb(177, 206, 181);
   color: white;
   border-style: dashed;
   border-color: rgb(115, 157, 121);
   border-width: 5px;
   border-radius: 3%;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
-.side-bar a {
-  color: aliceblue;
+#me {
+  font-size: 1.7em;
+  font-size-adjust: unset;
+  text-align: left;
 }
 
-.side-bar a:hover {
-  color: #413c58;
+#name {
+  padding-left: 40px;
+}
+
+#img {
+  width: 70%;
+  max-width: 90%;
+  height: auto;
+  align-self: normal;
+}
+
+#about-me {
+  font-size: 1.3em;
+  size-adjust: auto;
 }
 
 #education {
