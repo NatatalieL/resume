@@ -16,6 +16,8 @@ p {
 
 footer {
   padding: 2em;
+  text-align: center;
+  word-spacing: 30em;
 }
 
 a {
@@ -70,22 +72,17 @@ a:hover {
   float: right;
 }
 
-#education {
-  float: left;
+.left,
+.right {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 1.2em;
 }
 
-#skills {
-  float: left;
+.left {
+  width: 60%;
 }
 
-#volunteer {
-  float: right;
-}
-
-#achievements {
-  float: right;
-}
-
-#end {
-  float: right;
+.right {
+  width: 39%;
 }
