@@ -15,7 +15,7 @@ p {
 }
 
 footer {
-  object-position: center;
+  padding: 2em;
 }
 
 a {
@@ -32,40 +32,45 @@ a:hover {
   text-align: center;
 }
 
-.side-bar {
+.panel {
   display: flex;
   flex-wrap: wrap;
-  width: fit-content;
-  height: fit-content;
+  width: fit-content(90%);
+  height: fit-content(90%);
   background-color: rgb(177, 206, 181);
   color: white;
   border-style: dashed;
   border-color: rgb(115, 157, 121);
   border-width: 5px;
   border-radius: 3%;
-  padding: 15px;
+  padding: 10px;
+  columns: auto;
+  column-gap: 50%;
 }
 
 #me {
   font-size: 1.7em;
-  font-size-adjust: unset;
   text-align: left;
 }
 
 #name {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 #img {
-  width: 70%;
-  max-width: 90%;
+  width: 40%;
   height: auto;
-  align-self: normal;
 }
 
 #about-me {
   font-size: 1.3em;
-  size-adjust: auto;
+  position: relative;
+  float: left;
+}
+
+#socials {
+  font-size: 1.3em;
+  position: relative;
 }
 
 #education {
