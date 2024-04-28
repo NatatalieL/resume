@@ -35,42 +35,39 @@ a:hover {
 .panel {
   display: flex;
   flex-wrap: wrap;
-  width: fit-content(90%);
-  height: fit-content(90%);
+  width: fit-content(100%);
+  height: fit-content(100%);
   background-color: rgb(177, 206, 181);
   color: white;
+  padding: 10px;
   border-style: dashed;
   border-color: rgb(115, 157, 121);
   border-width: 5px;
   border-radius: 3%;
-  padding: 10px;
-  columns: auto;
-  column-gap: 50%;
-}
-
-#me {
-  font-size: 1.7em;
-  text-align: left;
 }
 
 #name {
-  padding-left: 20px;
+  font-size: 3em;
+  text-align: justify;
 }
 
 #img {
   width: 40%;
   height: auto;
+  flex-direction: column-reverse;
 }
 
 #about-me {
   font-size: 1.3em;
-  position: relative;
-  float: left;
+  position: static;
+  float: right;
+  padding-right: 40px;
 }
 
 #socials {
   font-size: 1.3em;
-  position: relative;
+  position: static;
+  float: right;
 }
 
 #education {
